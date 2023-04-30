@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //<script src="a.js"></script>
+    <button type="button"
+    onclick='document.getElementById("demo").innerHTML="hello" '>
+click me </button>
+
+<p id="demo">for date</p>
+
+<p id="weig"></p>
+//<script>
+  //  alert(2+4);
+  console.log(56+23);
+</script>
+<button onclick="alert(3+5)">try me</button>
+<button onclick="document.write(5+5)">write</button>
+<br>
+
+<div onmou="mOver(this)" onmouseup="mOut(this)" style="background-color: aqua;height: 50px;width: 150px;padding: 20px;">click on me.</div>
+<script>
+  function mOver(obj) {
+    obj.innerHTML="Mouse over me."    
+  }
+  function mOut(obj) {
+    obj.innerHTML="click me."
+  }
+  
+</script>
+<div onmouseover="maOver(this)" onmouseout="maOut(this)" style="background-color: beige;">
+  image here.</div>
+  <script>
+    function maOver(img) {
+      class=img
+    }
+    function maOut(img) {
+      
+    }
+  </script>
+</body>
+</html>
