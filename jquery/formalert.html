@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="./jquery-3.6.4.min.js"></script>
+    <script src="https://kit.fontawesome.com/b1d611a32c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script>
+        function display() {
+            var usertext = document.getElementById("ustext").value
+
+            if (usertext == "") {
+                alert("Plese enter text")
+            }
+        }
+        function demo() {
+            var passtext = document.getElementById("myInput").value
+
+            if (passtext == "") {
+                alert("Plese enter password")
+            }
+        }
+    </script>
+                Name:
+                <input type="text" id="ustext" placeholder="enter text">
+                <button onclick="display()">check</button>
+                <br>
+                Password:
+                <input type="password" value="FakePSW" id="password">
+                <button onclick="demo()">check</button><br><br>
+
+                <i class="fa-regular fa-eye"  id="eye"></i>
+                <script>
+                function eye() {
+                  var x = document.getElementById("password");
+                  if (x.type === "password") {
+                    x.type = "text";
+                  } else {
+                    x.type = "password";
+                  }
+                }
+            
+    
+        const eye = document.querySelector("#eye");
+        const password = document.querySelector("#password");
+
+        eye.addEventListener("click", function () {
+            // toggle the type attribute
+            const type = password.getAttribute("type") === "password" ? "text" : "password";
+            password.setAttribute("type", type);
+            
+            // toggle the icon
+            this.classList.toggle("fa-regular fa-eye" );
+        });
+
+       
+    </script>
+</body>
+
+</html>
