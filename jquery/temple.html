@@ -38,14 +38,16 @@
         }
         .panchang{
             background-color: #f4af10;
-            height: 440px;
+            height: 460px;
             width: 400px;
             border-radius: 5px;
-            margin-left: 10px;
+            margin-left: 60px;
+            margin-top: 30px;
+            float: left;
         }
         button {
-            float: right;
-            display: inline-block;
+           float: right;
+            display: inline;
             border-radius: 5px;
             background-color: #2e0004;
             border: none;
@@ -57,11 +59,8 @@
             transition: all 0.5s;
             cursor: pointer;
             margin: 5px;
-            margin-left: 300px;
-}
-.panchang.p{
-        margin-left: 20px;
-     }
+            margin-left: 200px;
+ }
      .daily{
         background-color: #2e0004;
         height: 340px;
@@ -69,6 +68,27 @@
         border-radius: 5px;
         float: right;
         color: aliceblue;
+        margin-right: 50px;
+        margin-top: 30px;
+     }
+     .box{
+        width: 60px;
+        height: 60px;
+        background-color: #e3404e;
+        border-radius: 50%;
+        background-image: url("image/harikrushna.jpg");
+        background-size: cover;
+        margin-left: 30px;
+        position: absolute;
+     }
+     .image1{
+        position: absolute;
+        margin: 5px;
+        float: left;
+     }
+     .image2{
+    
+        margin: 5px;
      }
         </style>
 </head>
@@ -84,44 +104,41 @@
     </div>
     <img src="./image/hindutemple.jpg" alt="" width="100%" height="600px">
     <div class="panchang">
-        <h1>Panchang For Today</h1>
+        <h1 style="text-align: center;">Panchang For Today</h1>
         <button style="background-color: rgba(18, 69, 253, 0.76); border-radius: 5px; width: 380px; margin-left: 2px;">Friday, May28,2023 (New Delhi,India)</button><br><br>
-        <pre><b>Sunrise:</b>05:58          <b>Sunset:</b>18:45</pre>
-        <p><b>Tithi:</b>Ashtami upon 01:34,May 28</p>
-        <p><b>Nakshatra:</b>Purva Ashadha upon 10:43</p>
-        <p><b>Yoga:</b>Shiva Upon 14:40</p>
-        <p><b>Karana:</b>Balava Upon 14:40</p>
-        <p><b>Karana:</b>Kaulava Upon 01:34,May29</p>            
-        <p><b>Paksha:</b>Krishna Paksha</p>
-        <p><b>Weekday:</b>Guruwara</p>
-        <p><b>Amanta Month:</b>Chitra
+        <pre style="margin-left: 20px;"><b>Sunrise:</b>05:58          <b>Sunset:</b>18:45</pre>
+        <p style="margin-left: 20px;"><b>Tithi:</b>Ashtami upon 01:34,May 28</p>
+        <p style="margin-left: 20px;"><b>Nakshatra:</b>Purva Ashadha upon 10:43</p>
+        <p style="margin-left: 20px;"><b>Yoga:</b>Shiva Upon 14:40</p>
+        <p style="margin-left: 20px;"><b>Karana:</b>Balava Upon 14:40</p>
+        <p style="margin-left: 20px;"><b>Karana:</b>Kaulava Upon 01:34,May29</p>            
+        <p style="margin-left: 20px;"><b>Paksha:</b>Krishna Paksha</p>
+        <p style="margin-left: 20px;"><b>Weekday:</b>Guruwara</p>
+        <p style="margin-left: 20px;"><b>Amanta Month:</b>Chitra
         <button><b>Know More</b></button></p>
     </div>
     <div class="daily">
-        <table>
-            <tr>
-                <th style="text-align: center;"><h1 style="text-align: center; color: white;">Daily Updates</h1></th>
-            </tr>
-            <tr>
-                <td><img src="./image/harik.jpg" alt=""style="width: 40px; border-radius: 50%;"></td>
-                <td><p>Harikrushna Maharaj</p></td>
-                <td><pre>Harikrushna Maharaj vadtaldham.</pre></td>
-            </tr>
-            <tr>
-                <td><img src="./image/harikrushna.jpg" alt=""style="width: 40px; border-radius: 50%"></td>
-                <td><p>Harikrushna Maharaj</p></td>
-                <td><pre>Harikrushna Maharaj vadtaldham.</pre></td>
-            </tr>
-            <tr>
-                <td><img src="./image/hariks.jpg" alt=""style="width: 40px; border-radius: 50%"></td>
-                <td><p>Harikrushna Maharaj</p></td>
-                <td><pre>Harikrushna Maharaj vadtaldham.</pre></td>
-            </tr>
-            <tr>
-                <td><img src="./image/hariks.jpg" alt=""style="width: 40px; border-radius: 50%"></td>
-                <td><p>Harikrushna Maharaj</p></td>
-                <td><pre>Harikrushna Maharaj vadtaldham.</pre></td>
-            </tr>    
+        <h1 style="text-align: center;">Daily Updates</h1>
+        <div class="image1">
+            <div class="box"> </div>
+            <p style="padding-left: 190px;font-size: small;" >Harikrushna<br>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="image2">
+            <div class="box"> </div>
+            <p style="padding-left: 190px;font-size: small;" >Harikrushna<br>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="image3">
+            <div class="box"> </div>
+            <p style="padding-left: 190px;font-size: small;" >Harikrushna<br>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="image4">
+            <div class="box"> </div>
+            <p style="padding-left: 190px;font-size: small;" >Harikrushna<br>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
     </div>
     <h1 style="text-align: center; color: #2e0004;">Upcoming Events</h1>
 </body>
