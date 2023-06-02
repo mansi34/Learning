@@ -4,9 +4,6 @@ import './index.css';
 import App from './App';
 
 function index() {
-  return(
-
-<App/>
-  );
+  return <App />;
 }
-export default index;
+// export default index;
