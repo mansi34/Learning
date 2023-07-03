@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essentials</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+        .mybutton{
+            border-radius:40px; 
+            width: 80px;
+            height: 40px;
+            background-color:rgb(240, 248, 275);
+            border: 0px ;
+        }
+        .more{
+          background-color: rgb(34,34,34);
+          color:aliceblue;
+          border-radius: 5px;        
+          margin-left: 900px;
+          margin-right: 10px;
+          border: 1px solid aliceblue;
+        }
+        .back{
+          background-color: rgb(34,34,34);
+          color:aliceblue;
+          border-radius: 5px;        
+          border: 1px solid aliceblue;
+        }
+    </style>
+</head>
+<body>
+     <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><h1>Mozito</h1></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav"style="margin-left: 20px;">
+          <li class="nav-item"style="margin-left: 20px;">
+            <a class="nav-link" aria-current="page" href="./homePage.html">Home</a>
+          </li>
+          <li class="nav-item"style="margin-left: 50px;">
+            <a class="nav-link dropdown-toggle" href="./Clothes.html">Clothes</a>
+         </li>
+          <li class="nav-item"style="margin-left: 50px;">
+            <a class="nav-link" href="./Jewellery.htm">Jewellery</a>
+          </li>
+          <li class="nav-item"style="margin-left: 50px;">
+            <a class="nav-link" href="./Electronics.htm">Electronics</a>
+          </li>
+          <li class="nav-item"style="margin-left: 50px;">
+            <a class="nav-link active" href="./Essentials.htm">Essentials</a>
+          </li>
+          <li class="nav-item dropdown"style="margin-left: 50px;">
+            <a class="nav-link dropdown-toggle" href="./homePage.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              New Collection
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Footwear</a></li>
+              <li><a class="dropdown-item" href="#">Home Products</a></li>
+              <li><a class="dropdown-item" href="#">Furniture</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+      <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+   </nav>
+
+   <div class="card-group">
+    <div class="card"style="margin: 20px; border:2px solid">
+      <img class="card-img-top" src="./Images/HomeProducts/awesome-sauce-creative-k-gZDXYjhNc-unsplash.jpg" alt="Card image cap"style="height: 400px;">
+      <div class="card-body">
+        <h4 class="card-title" style="color: rgb(71, 69, 69);">Colourfull cushion</h4>
+        <h3 class="card-text">₹400</h3>
+        <button type="button" class="btn btn-secondary">free delievery</button><br><br>
+        <button type="button" class="mybutton"><h4>3.4</h4></button>
+        <p>30 Reviews</p>
+      </div>
+      <div class="card-footer text-center">
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+       </div>
+    </div>
+
+    <div class="card"style="margin: 20px; border:2px solid">
+      <img class="card-img-top" src="./Images/HomeProducts/becca-tapert-p6h5U-ns9o0-unsplash.jpg" alt="Card image cap" style="height: 400px;">
+      <div class="card-body">
+        <h4 class="card-title" style="color: rgb(71, 69, 69);">Table Lamp</h4>
+        <h3 class="card-text">₹845</h3>
+        <button type="button" class="btn btn-secondary">free delievery</button><br><br>
+        <button type="button" class="mybutton"><h4>3.5</h4></button>
+        <p>23 Reviews</p>
+      </div>
+      <div class="card-footer text-center">
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+      </div>
+    </div>
+    <div class="card" style="margin: 20px; border:2px solid">
+        <img class="card-img-top" src="./Images/HomeProducts/oriol-pascual-aeqfZZeCsG8-unsplash.jpg" alt="Card image cap" style="height: 400px;">
+        <div class="card-body">
+          <h4 class="card-title" style="color: rgb(71, 69, 69);">Designer Chair</h4> 
+          <h3 class="card-text">₹750</h3>
+          <button type="button" class="btn btn-secondary">free delievery</button><br><br>
+          <button type="button" class="mybutton"><h4>3.8</h4></button>
+          <p>24 Reviews</p>
+        </div>
+        <div class="card-footer text-center">
+          <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+        </div>
+      </div>
+
+    <div class="card" style="margin: 20px; border:2px solid">
+      <img class="card-img-top" src="./Images/HomeProducts/daiga-ellaby-uooMllXe6gE-unsplash.jpg" alt="Card image cap" style="height: 400px;">
+      <div class="card-body">
+        <h4 class="card-title" style="color: rgb(71, 69, 69);">Spray Bottle</h4>
+        <h3 class="card-text">₹170</h3>
+        <button type="button" class="btn btn-secondary">free delievery</button><br><br>
+        <button type="button" class="mybutton"><h4>4.5</h4></button>
+        <p>8 Reviews</p>
+      </div>
+      <div class="card-footer text-center">
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+      </div>
+    </div>
+   
+  </div>
+  <div class="card-group">
+    <div class="card" style="margin: 20px; border:2px solid">
+      <img class="card-img-top" src="./Images/HomeProducts/hanna-balan-YasQvzPbGOQ-unsplash.jpg" alt="Card image cap"style="height: 400px;">
+      <div class="card-body">
+        <h4 class="card-title" style="color: rgb(71, 69, 69);">Candles</h4>
+        <h3 class="card-text">₹200</h3>
+        <button type="button" class="btn btn-secondary">Free delievery</button><br><br>
+        <button type="button" class="mybutton"><h4>3.8</h4></button>
+        <p>26 Reviews</p>
+      </div>
+      <div class="card-footer text-center">
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+       </div>
+    </div>
+    
+    <div class="card" style="margin: 20px; border:2px solid">
+        <img class="card-img-top" src="./Images/HomeProducts/jane-palash-eqDo7KG13vc-unsplash.jpg" alt="Card image cap" style="height: 400px;">
+        <div class="card-body">
+          <h4 class="card-title" style="color: rgb(71, 69, 69);">Perfume</h4>
+          <h3 class="card-text">₹1200</h3>
+          <button type="button" class="btn btn-secondary">Delievery ₹100</button><br><br>
+          <button type="button" class="mybutton"><h4>4.1</h4></button>
+          <p>24 Reviews</p>
+        </div>
+        <div class="card-footer text-center">
+          <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+        </div>
+      </div>   
+   
+      <div class="card"style="margin: 20px; border:2px solid">
+        <img class="card-img-top" src="./Images/HomeProducts/luma-candles-K1Xi_R_mfpk-unsplash.jpg" alt="Card image cap"style="height: 400px;object-fil:fill">
+        <div class="card-body">
+          <h4 class="card-title" style="color: rgb(71, 69, 69);">Glass bar</h4>
+          <h3 class="card-text">₹300</h3>
+          <button type="button" class="btn btn-secondary">Delievery ₹80</button><br><br>
+          <button type="button" class="mybutton"><h4>3.8</h4></button>
+          <p>20 Reviews</p>
+        </div>
+        <div class="card-footer text-center">
+          <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+          <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+        </div>
+      </div>
+      
+    <div class="card" style="margin: 20px; border:2px solid">
+      <img class="card-img-top" src="./Images/HomeProducts/max-harlynking-nfWp1mCmBpM-unsplash.jpg" alt="Card image cap"style="height: 400px;object-fil:fill">
+      <div class="card-body">
+        <h4 class="card-title" style="color: rgb(71, 69, 69);">Sunglass</h4>
+        <h3 class="card-text">₹800</h3>
+        <button type="button" class="btn btn-secondary">free delievery</button><br><br>
+        <button type="button" class="mybutton"><h4>3.5</h4></button>
+        <p>13 Reviews</p>
+      </div>
+      <div class="card-footer text-center">
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Order now</button>
+        <button type="button" class="btn btn-primary btn-sm" style="margin-left: 15px;">Add to Cart</button>
+    
+      </div>
+    </div>
+  </div>
+ <!-- footer -->
+  <nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+      <form class="d-flex">
+        <input class="form-control me-10" type="search" placeholder="Search" aria-label="Search"style="margin-right:20px">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+        <a href="./Clothes.html">
+            <button type="button" class=" btn more">More</button>               
+        </a>
+        <a href="./homePage.html">
+            <button type="button" class="btn back">Back</button>
+          </a>
+     </form>
+   </div>
+  </nav>  
+  <div class="container-fluid bg-dark" style="height: 200px;" >
+  <div class="row">
+    <div class="col-3" style="color: aliceblue; ">
+      <ul style="list-style-type: none; padding-top: 10px;" >
+        <li style="font-size: larger;">Home Products</li>
+        <li>Bedsheets</li>
+        <li>Doormats</li>
+        <li>Curtains & Sheers</li>
+        <li>Cushions & Cushion Covers</li>
+        <li>Mattress Protectors</li>
+      </ul>
+    </div>
+    <div class="col-3" style="color: aliceblue; ">
+      <ul style="list-style-type: none;padding-top: 10px;">
+       <li style="font-size: larger;">Electric Product</li>
+        <li>Oven</li>
+        <li>Mobile</li>
+        <li>Computer</li>
+        <li>fridge</li>
+        <li>Vehical</li>
+       </ul>
+    </div>
+  <div class="col-3" style="color: aliceblue; ">
+    <ul style="list-style-type: none;padding-top: 10px;">
+     <li style="font-size: larger;">Clothes</li>
+      <li>Women's</li>
+      <li>Men's</li>
+      <li>Kid's</li>
+      <li>Adault's</li>
+     </ul>
+  </div>
+<div class="col-3" style="color: aliceblue; ">
+  <ul style="list-style-type: none;padding-top: 10px;">
+   <li style="font-size: larger;">Jewellery</li>
+   <li>Necklace</li>
+   <li>Ring</li>
+   <li>Breslate</li>
+   <li>chain & Earing</li>
+   <li>Mangalsutra</li>
+   </ul>
+</div>
+</div>
+
+  </div>
+</body>
+</html>
