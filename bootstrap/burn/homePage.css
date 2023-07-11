@@ -1,0 +1,209 @@
+body {
+  background-color: black;
+}
+h1 {
+  font-weight: 700;
+}
+.container {
+  max-width: 1180px;
+  background-color: white;
+  padding: 0 0;
+}
+.mainNavbar {
+  background-color: white;
+}
+.mainNavbar p {
+  font-size: 0.6rem;
+  font-weight: 2500;
+  text-align: center;
+}
+.navbar a {
+  color: brown;
+  font-weight: 800;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+.header {
+  background-color: rgb(248, 235, 232);
+}
+.home_img {
+  width: 430px;
+  height: 430px;
+  margin-left: 70px;
+}
+.readBtn {
+  background-color: rgb(115, 21, 21);
+  color: rgb(248, 235, 232);
+  border: 0px;
+  padding: 10px 15px;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+.fresh h2 {
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  font-weight: 700;
+}
+.fresh p {
+  padding-right: 50px;
+  font-size: 0.7rem;
+}
+.best {
+  background-color: white;
+  padding: 0;
+  max-width: 1170px;
+  margin-left: 10px;
+}
+
+.best1 h2 {
+  margin-top: 40px;
+  font-weight: 700;
+  color: black;
+  margin-left: 100px;
+}
+.best1 p {
+  font-size: 0.8rem;
+  margin-left: 100px;
+}
+.best2 {
+  float: right;
+  margin-top: 70px;
+  margin-right: 90px;
+}
+.dishes {
+  max-width: 1000px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 85px;
+  color: rgb(115, 21, 21);
+}
+.dishes h5 {
+  font-weight: 700;
+}
+.dishes p {
+  font-weight: 0.7rem;
+  font-size: 10px;
+}
+.dish {
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+.map {
+  background-image: url(./image/home_burger-decor.png);
+  background-color: rgb(248, 235, 232);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.visit {
+  margin-left: 80px;
+}
+.visit h1 {
+  margin-top: 30px;
+}
+.visit h5 {
+  font-weight: 700;
+}
+.visit p {
+  padding-left: 0;
+}
+h6 + p {
+  padding-left: 0;
+}
+.visit a {
+  color: rgb(115, 21, 21);
+  margin-bottom: 800px;
+}
+iframe {
+  margin-top: 30px;
+  margin-left: -50px;
+}
+.border1 {
+  border: 3px solid rgb(115, 21, 21);
+  width: 400px;
+  height: 400px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.creation {
+  padding: 50px;
+}
+.creation h1 {
+  text-align: center;
+}
+.creation p {
+  font-size: 1rem;
+  text-align: center;
+}
+.creationImg {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 20px;
+}
+.creationImg img {
+  width: 240px;
+  height: 240px;
+}
+.signUp {
+  background-image: url(./image/1-1200.jpg);
+  background-position: center;
+}
+.signUp h1,
+.signUp p {
+  text-align: center;
+  padding: 10px;
+}
+.index h5 {
+  background-color: white;
+  border: 2px solid rgb(115, 21, 21);
+  font-weight: 500;
+  color: rgb(115, 21, 21);
+  padding: 15px;
+  width: 350px;
+}
+.btn {
+  background-color: rgb(115, 21, 21);
+  color: white;
+}
+.signupText {
+  margin-left: 400px;
+}
+.form-control {
+  border: 2px solid rgb(115, 21, 21);
+}
+.g-3 {
+  padding-bottom: 100px;
+}
+.footer {
+  width: auto;
+  height: 450px;
+  background-color: rgb(115, 21, 21);
+}
+.footer h5 {
+  font-weight: 700;
+  color: whitesmoke;
+  text-align: center;
+  padding: 35px;
+}
+.info a {
+  text-decoration: none;
+  color: white;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 100px;
+}
+.icon {
+  margin-left: 550px;
+}
+.icon1 {
+  margin-right: 20px;
+}
+.footer p {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}

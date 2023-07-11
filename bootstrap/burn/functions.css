@@ -1,0 +1,123 @@
+body {
+  background-color: black;
+}
+h1 {
+  font-weight: 700;
+}
+h5 {
+  font-weight: 700;
+  color: rgb(115, 21, 21);
+}
+.container {
+  max-width: 1180px;
+  background-color: white;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainNavbar {
+  background-color: white;
+}
+.mainNavbar p {
+  font-size: 0.6rem;
+  font-weight: 2500;
+  text-align: center;
+}
+.navbar a {
+  color: brown;
+  font-weight: 800;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+.headerImg {
+  background-image: url(./image/functions_banner.jpg);
+  width: 1180px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.headerImg h1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 150px;
+  font-size: 60px;
+}
+.headerImg h6 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+.function {
+  background-image: url(./image/about_team_bg.jpg);
+}
+.function p {
+  text-align: center;
+  padding: 50px 190px;
+  font-size: 0.8rem;
+}
+.funcimg {
+  padding-left: 100px;
+  max-width: 1100px;
+}
+.function h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.gallery {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 0px 150px;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+}
+.readBtn {
+  background-color: rgb(115, 21, 21);
+  color: rgb(248, 235, 232);
+  border: 0px;
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 0.7rem;
+  margin: 40px 515px;
+}
+.function h3 {
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+.footer {
+  width: auto;
+  height: 450px;
+  background-color: rgb(115, 21, 21);
+}
+.footer h5 {
+  font-weight: 700;
+  color: whitesmoke;
+  text-align: center;
+  padding: 35px;
+}
+.info a {
+  text-decoration: none;
+  color: white;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 100px;
+}
+.icon {
+  margin-left: 550px;
+}
+.icon1 {
+  margin-right: 20px;
+}
+.footer p {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
